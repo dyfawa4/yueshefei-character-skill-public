@@ -1,0 +1,12 @@
+{
+  "version": "V4.0.4-public",
+  "snapshot_date": "2026-08-14",
+  "persona_id": "月社妃",
+  "skill_id": "yueshefei-perspective",
+  "persona_sha256": "45b48a28f1f2fe6a9f218689786ed58f1042f48a0b24bf3d5a0e1f65c26bf7f2",
+  "skill_entry_sha256": "6223e64cde15bfb2c20d7e76a4e9004377895222bd34210f0dfc78b1ee5b876e",
+  "skill_tree_sha256": "b59e3e26013801c06766c0ecb6e4c693b6bd0c22e10c4251e332e83f100f42c1",
+  "skill_file_count": 15,
+  "adult_content_boundary": "explicit adults with capacity, explicit consent, continuous willingness, freely revocable",
+  "runtime_components_included": false
+}
