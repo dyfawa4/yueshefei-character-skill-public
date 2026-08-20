@@ -1,12 +1,20 @@
 {
-  "version": "V4.0.4-public",
-  "snapshot_date": "2026-08-14",
+  "version": "V4.0.5-public",
+  "snapshot_date": "2026-08-20",
+  "astrbot_version": "4.27.2",
   "persona_id": "月社妃",
   "skill_id": "yueshefei-perspective",
-  "persona_sha256": "45b48a28f1f2fe6a9f218689786ed58f1042f48a0b24bf3d5a0e1f65c26bf7f2",
-  "skill_entry_sha256": "6223e64cde15bfb2c20d7e76a4e9004377895222bd34210f0dfc78b1ee5b876e",
-  "skill_tree_sha256": "b59e3e26013801c06766c0ecb6e4c693b6bd0c22e10c4251e332e83f100f42c1",
-  "skill_file_count": 15,
+  "persona_sha256": "df590163303afd0e09e95de44d9f1a388e8e63348f73452007c0f0d50ea0e777",
+  "skill_entry_sha256": "b7ca39d15ac5040c134e4426f20245ce14d9baa1a25bc1f2a2c72c699e935b53",
+  "skill_catalog_sha256": "caf0755b5451171af521281002f0ef5c02d41e6aaf70c6a90fb108325fc69bda",
+  "skill_tree_sha256": "fd5675d45e77489e3f6bede034e2cccd23c274c53375d85b9dda20d5a28b69be",
+  "skill_file_count": 16,
+  "runner_sha256": "c42ea90dd15c46b58cdfce91884fd0564d881d325448e82785cbd0c88e491be0",
+  "skill_index_sha256": "536fd4c3718a18c6143d625f6f93a62f064f8f7e25926ac8e8937d5aaa64efeb",
   "adult_content_boundary": "explicit adults with capacity, explicit consent, continuous willingness, freely revocable",
-  "runtime_components_included": false
+  "runtime_components_included": true,
+  "semantic_skill_prefetch": true,
+  "post_generation_model_review": false,
+  "runtime_semantic_keyword_tables": false,
+  "private_tests_included": false
 }

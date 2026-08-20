@@ -1,0 +1,141 @@
+{
+  "version": 2,
+  "root": "/AstrBot/data/skills/yueshefei-perspective",
+  "resources": [
+    {
+      "id": "skill_entry",
+      "path": "SKILL.md",
+      "scope": "总入口、读取顺序、总体角色合同和资料导航",
+      "evidence_type": "boundary",
+      "authoritative": true,
+      "crosscheck": [],
+      "sha256": "b7ca39d15ac5040c134e4426f20245ce14d9baa1a25bc1f2a2c72c699e935b53"
+    },
+    {
+      "id": "soul",
+      "path": "soul.md",
+      "scope": "内在驱动力、恐惧、价值和核心矛盾",
+      "evidence_type": "behavior_range",
+      "authoritative": false,
+      "crosscheck": [],
+      "sha256": "6076c0ef0599351e253ec50f849e02e8e5675d0fd97f6e4e80fa704bd8a3f6cc"
+    },
+    {
+      "id": "limits",
+      "path": "limit.md",
+      "scope": "资料未明确时如何区分硬事实、合理推断与未知；默认时间线、知情和扮演边界",
+      "evidence_type": "boundary",
+      "authoritative": true,
+      "crosscheck": [],
+      "sha256": "635040836775d5c0693c12945310db01bd2caa654655020e9992d175359b0eac"
+    },
+    {
+      "id": "core_memory",
+      "path": "resource/core_character_memory.md",
+      "scope": "高频身份、世界状态和关键共同记忆",
+      "evidence_type": "fact",
+      "authoritative": true,
+      "crosscheck": [],
+      "sha256": "9819d69e14d41c7997d51c3a30f13b00e96e867ef5a370f81aecf6f2b0e8a69f"
+    },
+    {
+      "id": "profiles",
+      "path": "resource/character_profiles.md",
+      "scope": "人物身份、外貌和不可混淆的客观资料",
+      "evidence_type": "fact",
+      "authoritative": true,
+      "crosscheck": [],
+      "sha256": "5962e6096588b85ce93860f56b44b020ce0c814d8aaff2389d7c026f3f67d3b1"
+    },
+    {
+      "id": "relationships",
+      "path": "resource/relationship_dynamics.md",
+      "scope": "人物关系、关系阶段和面对不同人物的分寸",
+      "evidence_type": "fact",
+      "authoritative": true,
+      "crosscheck": ["core_memory"],
+      "sha256": "67dd54ec8cd7d3f4ef601f6ab308eec4cb6ddbc98a8768f5b0585f8e46b41ec5"
+    },
+    {
+      "id": "life_events",
+      "path": "resource/key_life_events.md",
+      "scope": "成长经历、重大转折及事件的参与者和因果",
+      "evidence_type": "fact",
+      "authoritative": true,
+      "crosscheck": ["core_memory"],
+      "sha256": "866ad119194f8de6f7d5eed1ae3a46ac870c5d94b17a699eb64e4b68ffa9b66e"
+    },
+    {
+      "id": "arcs",
+      "path": "resource/story_arcs_and_settings.md",
+      "scope": "篇章、路线、时间线、地点和世界状态",
+      "evidence_type": "fact",
+      "authoritative": true,
+      "crosscheck": [],
+      "sha256": "8b649820d0daccbf0da8fb265c6395d3c95dd2c7a279ae625e4607ca66a56b2c"
+    },
+    {
+      "id": "behavior_guide",
+      "path": "resource/behavior_guide.md",
+      "scope": "可复用行为、情绪、身体反应和场景连续性范围",
+      "evidence_type": "behavior_range",
+      "authoritative": false,
+      "crosscheck": [],
+      "sha256": "f8f03098cd0f9065e12c43c6629231504a499bed5f4cfdf8ffe01bb292a81794"
+    },
+    {
+      "id": "story_behavior",
+      "path": "resource/story_behavior_patterns.md",
+      "scope": "重大关系与剧情处境中的条件反应方向，包括亲密竞争、承诺、久别、危险、疏远、表白、灾难、被伤害及他人差异",
+      "evidence_type": "behavior_range",
+      "authoritative": false,
+      "crosscheck": [],
+      "sha256": "6f78fb113f0539fef203b1653ccaba807071f114c4204a700bf4baa6643f50fc"
+    },
+    {
+      "id": "behavior_evidence",
+      "path": "resource/behavior_evidence.jsonl",
+      "scope": "按人物和场景记录的逐条原作行为证据",
+      "evidence_type": "example",
+      "authoritative": false,
+      "crosscheck": [],
+      "sha256": "9e776b5e3573445e44ca5a923d2fc4fa7ef7e38528ef26a59130877fe5ad6119"
+    },
+    {
+      "id": "speech",
+      "path": "resource/speech_patterns.md",
+      "scope": "中文即时对话的节奏、称呼、口吻、动作表达及强烈情绪与身体描写语域；用于避免说明文和模板化",
+      "evidence_type": "example",
+      "authoritative": false,
+      "crosscheck": ["behavior_evidence"],
+      "sha256": "1580cb749d36cbc925edbc5a8b197f84f0199ee12f4882f98bbed3300e73bafc"
+    },
+    {
+      "id": "canon_lines",
+      "path": "resource/canon_line_bank.md",
+      "scope": "可核对的原作台词原句",
+      "evidence_type": "fact",
+      "authoritative": true,
+      "crosscheck": ["behavior_evidence"],
+      "sha256": "827aa6c384e44b895dd227265872c9dba58ce1c8629adbec0e4b99bb1285106e"
+    },
+    {
+      "id": "canon_facts",
+      "path": "resource/canon_facts.jsonl",
+      "scope": "可核对的原作事实索引",
+      "evidence_type": "fact",
+      "authoritative": true,
+      "crosscheck": ["life_events"],
+      "sha256": "57e4a6efb97b93357ac5b544f4306ef52008c44ed1e1989d119041a4624b237b"
+    },
+    {
+      "id": "adult",
+      "path": "resource/adult_intimacy.md",
+      "scope": "明确成年且持续自愿场景中的人物、同意变化、动作和身体连续性范围",
+      "evidence_type": "behavior_range",
+      "authoritative": false,
+      "crosscheck": ["behavior_guide"],
+      "sha256": "cb0ad0eb94dcd3cd807916d266abda7e857d5927aa357a67bd8d7d05da306542"
+    }
+  ]
+}
